@@ -1,0 +1,267 @@
+@font-face {
+    font-family: batman_font;
+    src: url("assets/font-family/batman_font.fff");
+}
+.root{
+    --var-ad-color-yellow:#ffff00;
+    --var-ad-color-yellow1:#f8f184;
+    --var-ad-color-bleu:#19587d;
+    --var-ad-color-red:#b11313;
+    --var-ad-color-black:#0d0e09;
+    --var-ad-color-grey:#c4c4c4;
+    --var-ad-color-black1:#000000;
+    --var-ad-color-white:#ffffff;
+ }
+ body{
+     color: var(--var-ad-color-white);
+     margin: 0;
+ }
+ .body{
+     border: solid 6px red;
+     padding: 10px;
+     margin: 50px;
+
+ }
+ /*in trduction*/
+ .section0{
+     background-image: url("../Illustrations/Home/Bathome1.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     width: 100%;
+     height: 1100px;
+     color: white
+ }
+ article{
+     margin-top: 200px;
+ }
+ .navigbar{
+    padding-top: 20px;
+ }
+ .brand img{
+     height: 40px;
+     width: 100px;
+     padding-left: 10px;
+ }
+.menu a{
+    color: var(--var-ad-color-white);
+    font-weight: bolder;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* batmana au cinema */
+.section1 h1, .section4 h1{
+    font-family: batman_font;
+}
+.section1para{
+    font-size: 25px;
+}
+#batpara{
+    font-weight: bolder;
+}
+.lien0{
+    padding:15px 30px 15px 30px;
+    text-decoration: none;
+    font-size:15px ;
+    margin:  20px;
+    color: white;
+    background: #ffffff6c;
+}
+.fleche_down{
+      padding-top: 500px;
+      
+}
+.imglist img{
+    padding: 10px;
+}
+.media {
+    width: 70px;
+}
+.imglist{
+    position: absolute;
+    top: 300px;
+    right:150px;
+    width: 200px;
+    padding:10px;
+}
+.section1, .section4{
+    text-align: justify;
+    color: #ffffff;
+    font-size: 25px;
+}
+.section2, .section5,.section6,.section7, .section8, .section1, .section4, .section9, footer{
+    background-color: #000000;
+}
+.section2 img, .section5 img{
+    display: none;
+    padding: 30px;
+    margin: 0;
+    width: 400px;
+    height: 600px;
+}
+.section3{
+    display: none;
+    background-image: url("../Illustrations/Home/Batslider1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+.section7 img{
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
+/* MULTIMEDIA */
+.section6{
+    height: 500px;
+}
+
+.section6 .container {
+    color: #fff;
+}
+
+.section6 button {
+    position: relative;
+    top: 150px;
+    background-color: transparent;
+    border: none;
+}
+
+.section6 button.right {
+    right: -92.5%
+}
+
+.section6 .slider-media {
+    display: none;
+}
+
+.section6 .carte-slider-top {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    max-height: 300px;
+}
+
+.section6 .carte-slider {
+    margin: 1rem auto;
+    display: flex;
+    width: 60%;
+    max-height: 300px;
+}
+
+ .section6 .carte-body {
+    padding: 10px;
+    width: 80%;
+    background: linear-gradient(135deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4) 60%);
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.carte-img {
+    width: 30%;
+}
+
+.section6 .carte-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.section6 .carte-body h2 {
+    font-family: 'space-grotesk';
+    font-size: 12px;
+    color: #bcbcbc;
+    font-weight: bold;
+}
+
+.section6 span.subtitle {
+    font-size: 22px;
+}
+
+.section6 .carte-body p {
+    font-size: 12px;
+}
+
+.section6 .carte-body span.source {
+    font-weight: bold;
+}
+
+.section6 iframe {
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 100%;
+}
+
+ iframe:hover {
+    box-shadow: 0px 0px 2rem white;
+}
+.section7 img{
+    display: none;
+}
+/* news letter*/
+.inputform{
+    font-size: 20px;
+    width: 100%;
+    background:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+   
+}
+.select, .souhait{
+    padding-top: 20px;
+}
+.label{
+    font-size: 20px;
+}
+.confirm{
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #7b5c5c;
+}
+/* avant footer*/
+.para1, .para2{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.img1{
+    text-align: start;
+}
+.img2{
+    text-align: right;
+}
+.para1{
+    font-weight: bolder;
+    color: #ffffff;
+}
+.para2{
+    color: #263c48ce;
+}
+.petitrond{
+    border: solid 1px #19587d;
+    border-radius: 50%;
+    width:0.5rem;
+    height: 0.5rem;
+    margin:5px;
+}
+footer{
+    padding: 20px;
+}
+/*parti animé*/
+.js0{
+    position: relative;
+    left: -100%;
+}
+.js1{
+    position: relative;
+    left: -80%;
+}
+.section3 img  , .section5 img , .serction7 img{
+    display: none;
+}
